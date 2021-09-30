@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap');
+
+
+  $base-color: #e2dfd8;
+  $base-color-light: #F4F3F1; 
+  $dark-color: #27336b;
+  $accent-color: #1339e3; 
+  $font-sans: 'Montserrat', sans-serif;
+  $font-serif: 'Roboto Slab', serif;
+  $font-big: 50px;
+  $font-medium: 30px;
+  $font-small: 16px;
+  $font-tiny: 12px;
+  $font-heavy: 600;
+  $font-light: 400;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: $font-sans;
+    font-weight: $font-light;
+    font-size: $font-small;
+    line-height: 1.9;
+    background-color: $base-color-light;
+    color: $dark-color;
+    display: grid;
+    justify-content: center;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  .container {
+      padding: 2em;
+      margin: 0.5em;
+      border: 1px solid $dark-color;
+  }
+
+  .date-container {
+    color: $dark-color;
+    display: flex;
+    justify-content: center;
+  }
+
+//   .btn-container {
+//     color: $dark-color;
+//   }
+
+  button {
+    border: 1px solid $dark-color;
+    border-radius: 50% 50%;
+    color: $dark-color;
+    height: 3em;
+    width: 3em;
+    margin: 1em;
+    cursor: pointer;
+  }
+
+  .change {
+    background-color: $dark-color;
+    color: red;
+  }
+
+  .btn-morning {
+    background-color: $base-color;
+  }
+
+  .btn-noon {
+    background-color: $base-color;
+  }
+
+  .btn-night {
+    background-color: $base-color;
+  }

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  background-color: #F4F3F1;
+  color: #27336b;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  padding: 2em;
+  margin: 0.5em;
+  border: 1px solid #27336b;
+}
+
+.date-container {
+  color: #27336b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  border: 1px solid #27336b;
+  border-radius: 50% 50%;
+  color: #27336b;
+  height: 3em;
+  width: 3em;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.change {
+  background-color: #27336b;
+  color: red;
+}
+
+.btn-morning {
+  background-color: #e2dfd8;
+}
+
+.btn-noon {
+  background-color: #e2dfd8;
+}
+
+.btn-night {
+  background-color: #e2dfd8;
+}
+/*# sourceMappingURL=style.css.map */
