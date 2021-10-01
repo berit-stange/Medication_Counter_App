@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -27,14 +27,14 @@ p {
 .container {
   padding: 2em;
   margin: 0.5em;
-  border: 1px solid #27336b;
   display: -ms-grid;
   display: grid;
   justify-items: center;
+  background-color: #27336b;
 }
 
 .date-container {
-  color: #27336b;
+  color: #80ecda;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,24 +44,20 @@ p {
 }
 
 button {
-  border: 1px solid #27336b;
+  border: 0;
   border-radius: 50% 50%;
-  color: #27336b;
   height: 3em;
   width: 3em;
   margin: 1em;
   cursor: pointer;
-}
-
-button {
-  background-color: #27336b;
-  color: #e313b6;
-  font-family: "Montserrat", sans-serif;
+  background-color: #F4F3F1;
+  color: #27336b;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
 }
 
 .change {
-  background-color: #e313b6;
+  background-color: #80ecda;
   color: #27336b;
 }
 /*# sourceMappingURL=style.css.map */

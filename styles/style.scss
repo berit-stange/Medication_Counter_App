@@ -5,7 +5,7 @@
 $base-color: #e2dfd8;
 $base-color-light: #F4F3F1;
 $dark-color: #27336b;
-$accent-color: #e313b6;
+$accent-color: #80ecda;
 $font-sans: 'Montserrat',
 sans-serif;
 $font-serif: 'Roboto Slab',
@@ -22,7 +22,7 @@ $font-light: 400;
 }
 
 body {
-  font-family: $font-sans;
+  font-family: $font-serif;
   font-weight: $font-light;
   font-size: $font-small;
   line-height: 1.9;
@@ -40,13 +40,14 @@ p {
 .container {
   padding: 2em;
   margin: 0.5em;
-  border: 1px solid $dark-color;
+  // border: 1px solid $dark-color;
   display: grid;
   justify-items: center;
+  background-color: $dark-color;
 }
 
 .date-container {
-  color: $dark-color;
+  color: $accent-color;
   display: flex;
   justify-content: center;
 }
@@ -56,13 +57,16 @@ p {
 //   }
 
 button {
-  border: 1px solid $dark-color;
+  border: 0;
   border-radius: 50% 50%;
-  color: $dark-color;
   height: 3em;
   width: 3em;
   margin: 1em;
   cursor: pointer;
+  background-color: $base-color-light;
+  color: $dark-color;
+  font-family: $font-serif;
+  font-size: $font-small;
 }
 
 // .btn-morning {
@@ -79,13 +83,6 @@ button {
 //   background-color: $dark-color;
 //   color: $accent-color;
 // }
-
-button {
-  background-color: $dark-color;
-  color: $accent-color;
-  font-family: $font-sans;
-  font-size: $font-small;
-}
 
 .change {
   background-color: $accent-color;
