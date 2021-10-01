@@ -5,7 +5,7 @@
   $base-color: #e2dfd8;
   $base-color-light: #F4F3F1; 
   $dark-color: #27336b;
-  $accent-color: #1339e3; 
+  $accent-color: #e313b6; 
   $font-sans: 'Montserrat', sans-serif;
   $font-serif: 'Roboto Slab', serif;
   $font-big: 50px;
@@ -61,18 +61,18 @@ body {
   }
 
   .change {
-    background-color: $dark-color;
-    color: red;
+    background-color: $accent-color;
+    // color: $accent-color;
   }
 
-  .btn-morning {
-    background-color: $base-color;
-  }
+  // .btn-morning {
+  //   background-color: $base-color;
+  // }
 
-  .btn-noon {
-    background-color: $base-color;
-  }
+  // .btn-noon {
+  //   background-color: $base-color;
+  // }
 
-  .btn-night {
-    background-color: $base-color;
-  }
+  // .btn-night {
+  //   background-color: $base-color;
+  // }
