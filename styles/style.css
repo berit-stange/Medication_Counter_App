@@ -19,7 +19,8 @@ body {
           justify-content: center;
 }
 
-h1, p {
+h1,
+p {
   text-align: center;
 }
 
@@ -27,6 +28,9 @@ h1, p {
   padding: 2em;
   margin: 0.5em;
   border: 1px solid #27336b;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
 }
 
 .date-container {
@@ -49,7 +53,15 @@ button {
   cursor: pointer;
 }
 
+button {
+  background-color: #27336b;
+  color: #e313b6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
 .change {
   background-color: #e313b6;
+  color: #27336b;
 }
 /*# sourceMappingURL=style.css.map */

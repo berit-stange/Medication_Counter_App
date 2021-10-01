@@ -1,3 +1,9 @@
+// DATE
+const date = new Date();
+// console.log(date.toString());
+document.getElementById("date").innerHTML = date;
+
+// BUTTONS
 const btn = document.querySelector('.btn-morning');
 const changeColor = document.querySelector(".changeColor");
 changeColor.addEventListener('click', function () {
@@ -15,3 +21,5 @@ const changeColor3 = document.querySelector(".changeColor3");
 changeColor3.addEventListener('click', function () {
     btn3.classList.toggle("change");
 });
+
+
